@@ -4,11 +4,11 @@ using Documenter
 makedocs(;
     modules=[VisualStringDistances],
     authors="Eric P. Hanson",
-    repo="https://github.com/ericphanson/VisualStringDistances.jl/blob/{commit}{path}#L{line}",
+    repo="https://github.com/sgibbs409/VisualStringDistances.jl/blob/{commit}{path}#L{line}",
     sitename="VisualStringDistances.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://ericphanson.github.io/VisualStringDistances.jl",
+        canonical="https://sgibbs409.github.io/VisualStringDistances.jl",
         assets=String[],
     ),
     pages=[
@@ -19,5 +19,5 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/ericphanson/VisualStringDistances.jl",
+    repo="github.com/sgibbs409/VisualStringDistances.jl",
 )
